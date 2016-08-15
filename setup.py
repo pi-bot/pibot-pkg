@@ -35,7 +35,7 @@ setup(
     author_email='Harry@pibot.org',
 
     # Choose your license
-    license='License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    license='GNU General Public License v3 or later (GPLv3+)',
     
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -50,7 +50,7 @@ setup(
         'Topic :: Education',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: GPL3 License',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
