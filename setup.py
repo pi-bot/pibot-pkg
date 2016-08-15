@@ -24,7 +24,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.9.0',
 
-    description='The Pibot Educational Robot python package library. For all the robot's control modules',
+    description='The Pibot Educational Robot python package library. For all the robot control modules',
     long_description=long_description,
 
     # The project's main homepage.
