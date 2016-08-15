@@ -16,8 +16,9 @@ Brief Overview
 -----------------
 
 Current modules in the library include:
+
 - movement module for moving the Pibot 
-- encoders moduel for the robots encoders
+- encoders module for the robots encoders
 - neopixels module for controlling and extending the robots onboard neopixels
 - ultrasound module for receiving distance through the robots ultrasound module
 
