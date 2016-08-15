@@ -8,8 +8,11 @@ Installation
 -----------------
 Install the package using _pip:https://pypi.python.org/pypi/pip from the Python Package Index _PyPi:https://pypi.python.org/pypi
 
-.. code:: python
+
+```python
 pip install pibot
+```
+
 
 
 Overview
