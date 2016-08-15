@@ -12,7 +12,7 @@ Install the package using _pip:https://pypi.python.org/pypi/pip from the Python 
 pip install pibot
 
 
-Brief Overview
+Overview
 -----------------
 
 Current modules in the library include:
