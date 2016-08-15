@@ -35,8 +35,8 @@ setup(
     author_email='Harry@pibot.org',
 
     # Choose your license
-    license='GLPv3',
-
+    license='License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         # How mature is this project? Common values are
