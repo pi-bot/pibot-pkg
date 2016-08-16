@@ -1,6 +1,6 @@
-from arduino import Commands, Arduino
-from motors import Motors
-from mission import Mission
+from pibot.arduino import Commands, Arduino
+from pibot.motors import Motors
+from pibot.mission import Mission
 import time
 board = Arduino()
 board.connect()
