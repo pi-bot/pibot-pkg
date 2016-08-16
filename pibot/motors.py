@@ -56,20 +56,24 @@ class Motors():
     # lower level command to move
     def position(self,pos,speed,block):
         self.board.sendCommand(Commands.POSITION,pos,speed)
-
         if block:
-            while not self.getAtPosition():
+            there=int(self.getAtPosition())
+            while(there==0):
                 print("on my way")
                 sleep(0.2)
-
+                there=int(self.getAtPosition())
+            print("got there! - Now I'll do  next command")
+    
     # lower level command to rotate
     def rotate(self,angle,speed,block):
         self.board.sendCommand(Commands.ROTATE,angle,speed,block)
-
         if block:
-            while not self.getAtPosition():
+            there=int(self.getAtPosition())
+            while(there==0):
                 print("on my way")
                 sleep(0.2)
+                there=int(self.getAtPosition())
+            print("got there! - Now I'll do  next command")
 
     # helper commands to move
     def moveForward(self,pos,speed=DEFAULT_SPEED,block=True):
