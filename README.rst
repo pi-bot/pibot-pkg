@@ -2,7 +2,7 @@ PiBot Package Library
 ==============
 
 This package is a python library for interfacing with the Pibot educational robot. See 
- _pibot.org: http://www.pibot.org/  for further project details.
+ pibot.org: http://www.pibot.org/  for further project details.
 
 Installation
 -----------------
