@@ -91,5 +91,16 @@ sudo pip install -i https://testpypi.python.org/pypi pibot
 ```
 **N.B.** The guide misses out the **sudo** however I added this after getting permission errors.
 
+```
+Successfully Installed pibot
+```
+Yippee do. So now lets see it: 
+
+```
+cd /usr/lib/python2.7/dist-packages/
+```
+
+
+
 
 **NB** Update the version number everytime you make changes to the package. 
