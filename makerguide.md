@@ -97,9 +97,9 @@ Successfully Installed pibot
 Yippee do. So now lets see it: 
 
 ```
-cd /usr/lib/python2.7/dist-packages/
+cd /usr/local/lib/python2.7/dist-packages/;ls
 ```
-
+Yippee it is there.  Now lets test the use of it in IDLE.
 
 
 
