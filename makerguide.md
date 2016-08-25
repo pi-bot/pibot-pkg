@@ -87,8 +87,9 @@ Great ! We're in business:)
 ### Downloading and testing 
 So That covers the installation now lets download and test. 
 ```
-pip install -i https://testpypi.python.org/pypi pibot
+sudo pip install -i https://testpypi.python.org/pypi pibot
 ```
+**N.B.** The guide misses out the **sudo** however I added this after getting permission errors.
 
 
 **NB** Update the version number everytime you make changes to the package. 
