@@ -54,7 +54,7 @@ index-servers=
 [pypitest]
 repository = https://testpypi.python.org/pypi
 username = HarryGeeTest
-password = "harryTestxxx"
+password = harryTestxxx
 
 [pypi]
 repository = https://pypi.python.org/pypi
