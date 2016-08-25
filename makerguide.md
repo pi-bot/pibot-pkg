@@ -9,7 +9,7 @@ This guide a concise how to for setting up the  **pibot** python modules for dis
 - A devs experience in making packages and [Uploading To PyPi](https://tom-christie.github.io/articles/pypi/)
 
 ###Getting Started.
-The user guide has got me as far as preparing the package that I have now hosted on github:[https://github.com/pi-bot/pibot-pkg]{https://github.com/pi-bot/pibot-pkg)
+The user guide has got me as far as preparing the package that I have now hosted on github:[https://github.com/pi-bot/pibot-pkg](https://github.com/pi-bot/pibot-pkg)
 See the repo for setup files etc. Will now go through steps for cloning this and uploading to PiPy. 
 
 ```
