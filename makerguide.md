@@ -64,4 +64,15 @@ password = <your password goes here>
 
 Then use the rest of the guide to upload your package. 
 
+###Register Package
+```
+python setup.py register -r https://testpypi.python.org/pypi
+```
+Next thing is to create the distribution file to upload.
+
+```
+python setup.py sdist
+```
+
+
 **NB** Update the version number everytime you make changes to the package. 
