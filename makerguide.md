@@ -73,6 +73,22 @@ Next thing is to create the distribution file to upload.
 ```
 python setup.py sdist
 ```
+Then upload it ...
+```
+python setup.py sdist upload -r https://testpypi.python.org/pypi
+```
+**N.B.** The guide misses out the **sdist** from the last command that threw an error the first time I tried.
+
+```
+Server response (200):OK
+```
+Great ! We're in business:)
+
+### Downloading and testing 
+So That covers the installation now lets download and test. 
+```
+pip install -i https://testpypi.python.org/pypi pibot
+```
 
 
 **NB** Update the version number everytime you make changes to the package. 
