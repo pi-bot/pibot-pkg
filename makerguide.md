@@ -18,5 +18,48 @@ git clone https://github.com/pi-bot/pibot-pkg.git
 
 Then we go into the root directory and build the package .zip file for uploading to PyPi.
 
+Once Installed the package exists on the Raspian system here:
+
+```
+/usr/lib/python2.7/dist-packages/
+```
+
+This is in all users global **$PYTHONPATH** so that modules can then be imported. Issue I was having was getting **IDLE** to access the modules.  We can check the $PYTHONPATH of the application by opening IDLE and then:
+```
+>>> import sys
+>>> print sys.path
+```
+Output is 
+```
+Put output here
+```
+
+OK so now lets import the module.
+###Using Test PyPi Server
+This [guide](https://wiki.python.org/moin/TestPyPI) explains how to set up a test server to practice uploading/distributing packages through PyPi.  My Project is in Beta so its appropriate to use this.
+
+My **~/.pypirc** file is made by 
+
+```
+vim ~/.pypirc
+```
+
+
+```
+[distutils]
+index-servers=
+    pypi
+    pypitest
+
+[pypitest]
+repository = https://testpypi.python.org/pypi
+username = HarryGeeTest
+password = "harryTestxxx"
+
+[pypi]
+repository = https://pypi.python.org/pypi
+username = <your user name goes here>
+password = <your password goes here>
+```
 
 
