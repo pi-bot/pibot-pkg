@@ -62,4 +62,6 @@ username = <your user name goes here>
 password = <your password goes here>
 ```
 
+Then use the rest of the guide to upload your package. 
 
+**NB** Update the version number everytime you make changes to the package. 
