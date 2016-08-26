@@ -100,6 +100,12 @@ Yippee do. So now lets see it:
 cd /usr/local/lib/python2.7/dist-packages/;ls
 ```
 Yippee it is there.  Now lets test the use of it in IDLE.
+There is an error thrown by a Jason parser.  ooh no this does not work.  Need a fix.
+The fix is to not install the module using pip but to place at another location on the python path.
+```
+sudo mv .v/python-code  /usr/lib/python2.7/pibot
+```
+
 
 
 
